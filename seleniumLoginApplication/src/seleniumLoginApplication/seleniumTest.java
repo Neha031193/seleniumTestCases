@@ -38,7 +38,7 @@ public class seleniumTest {
 		 
 		                WebDriver driver = new ChromeDriver();
 		 
-		                driver.get("http://127.0.0.1:5500/");
+		                driver.get("http://127.0.0.1:5500/index.html");
 		                Thread.sleep(1000);
 		                driver.findElement(By.linkText("Register")).click();
 		 
