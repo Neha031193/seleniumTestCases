@@ -49,7 +49,7 @@ public class seleniumTest {
 		                driver.findElement(By.id("validationCustom03")).sendKeys("9878906789");
 		                driver.findElement(By.id("validationCustom04")).sendKeys("abcd");
 		    
-		                driver.findElement(By.id("submitRegButton")).click();
+		                driver.findElement(By.id("submitRegButton")).click();    
 		                          
 		                
 	}
