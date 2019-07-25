@@ -38,18 +38,19 @@ public class seleniumTest {
 		 
 		                WebDriver driver = new ChromeDriver();
 		 
-		                driver.get("http://127.0.0.1:5500/");
+//		                driver.get("http://127.0.0.1:5500/");
+		                driver.get("http://dev2.app.cloudlytics.com/main");
 		                Thread.sleep(1000);
-		                driver.findElement(By.linkText("Register")).click();
-		 
+//		                driver.findElement(By.linkText("Register")).click();
+		 driver.findElement(By.id("loginBtn")).click();
 		                Thread.sleep(1000);
-		                driver.findElement(By.id("validationCustom01")).sendKeys("abcd");
-		                driver.findElement(By.id("validationCustom02")).sendKeys("efgh");
-		                driver.findElement(By.id("validationCustomUsername")).sendKeys("abc@gmail.com");
-		                driver.findElement(By.id("validationCustom03")).sendKeys("9878906789");
-		                driver.findElement(By.id("validationCustom04")).sendKeys("abcd");
-		    
-		                driver.findElement(By.id("submitRegButton")).click();
+//		                driver.findElement(By.id("validationCustom01")).sendKeys("abcd");
+//		                driver.findElement(By.id("validationCustom02")).sendKeys("efgh");
+//		                driver.findElement(By.id("validationCustomUsername")).sendKeys("abc@gmail.com");
+//		                driver.findElement(By.id("validationCustom03")).sendKeys("9878906789");
+//		                driver.findElement(By.id("validationCustom04")).sendKeys("abcd");
+//		    
+//		                driver.findElement(By.id("submitRegButton")).click();
 		                
 		                
 	}
